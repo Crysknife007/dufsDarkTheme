@@ -3,7 +3,7 @@ A Dark Theme for Dufs
 
 ![Screenshot of dark theme.](https://raw.githubusercontent.com/Crysknife007/dufsDarkTheme/refs/heads/main/dufsDarkTheme.png)
 
-This is a dark theme I made for Dufs ( Distinctive utility file server ) by sigoden:
+This is a dark theme I made for Dufs ( Distinctive utility file server ):
 
 https://github.com/sigoden/dufs
 
