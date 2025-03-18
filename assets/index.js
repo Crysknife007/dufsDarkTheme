@@ -134,17 +134,17 @@ async function ready() {
   addBreadcrumb(DATA.href, DATA.uri_prefix);
 
   if (DATA.kind === "Index") {
-    document.title = `Index of ${DATA.href} - Dufs`;
+    document.title = `${DATA.href}`;
     document.querySelector(".index-page").classList.remove("hidden");
 
     await setupIndexPage();
   } else if (DATA.kind === "Edit") {
-    document.title = `Edit ${DATA.href} - Dufs`;
+    document.title = `${DATA.href}`;
     document.querySelector(".editor-page").classList.remove("hidden");
 
     await setupEditorPage();
   } else if (DATA.kind === "View") {
-    document.title = `View ${DATA.href} - Dufs`;
+    document.title = `${DATA.href}`;
     document.querySelector(".editor-page").classList.remove("hidden");
 
     await setupEditorPage();
